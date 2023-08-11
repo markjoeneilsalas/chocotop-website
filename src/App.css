@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: abhayafont;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+@font-face {
+  font-family: abhayafont;
+  src: url(../src/assets/abhaya.ttf);
+}
+
+
+/*  Navhero section start  */
+
+.background-heronavbar {
+  background-image: url(../src/assets/navhero-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+}
+
+.navbar-list {
+  list-style: none;
+}
+
+.logo-style {
+  width: 100px;
+}
+
+.slogan-text1 {
+  font-size: 96px;
+}
+
+.slogan-text2 {
+  font-size: 60px;
+}
+
+.slogan-quotes {
+  padding-bottom: 6rem;
+}
+
+/*  Navhero section end  */
