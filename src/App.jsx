@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Navhero from './components/navhero'
+import Variants from './components/Variants'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
       <Navhero />
+      <Variants />
     </>
   )
 }

@@ -1,7 +1,6 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
   font-family: abhayafont;
 }
 
@@ -24,6 +23,14 @@ body {
   width: auto;
 }
 
+ul , li {
+  font-size: 19px;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
 .navbar-list {
   list-style: none;
 }
@@ -44,4 +51,79 @@ body {
   padding-bottom: 6rem;
 }
 
+/*  Navhero Responsiveness */
+
+@media screen and (min-width: 200px) and (max-width: 375px){
+  #navbarres {
+    display: none;
+  }
+
+  .slogan-text1 {
+    font-size: 60px;
+  }
+
+  .slogan-text2 {
+    font-size: 37px;
+  }
+}
+
 /*  Navhero section end  */
+
+/*  Variants section end  */
+
+.background-variants-section {
+  background-image: url(../src/assets/variantssections.png);
+  background-size: cover;
+  width: auto;
+}
+
+.variants-popular-list {
+  justify-content: center;
+  align-items: center;
+}
+
+.variants-list {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product1 {
+  justify-content: center;
+}
+
+.button-74 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
