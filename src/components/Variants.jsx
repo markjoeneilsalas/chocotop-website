@@ -32,8 +32,8 @@ function Variants() {
 
 
   return (
-    <Container className='background-variants-section pt-3' fluid>
-        <div>
+    <Container className='background-variants-section pt-3 pb-3' fluid>
+        <div className='pb-4'>
            <h3 className='text-center pt-3'>Popular Hot Chocolate Flavors</h3>
         </div>
         <div>
